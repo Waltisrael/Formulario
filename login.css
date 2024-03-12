@@ -1,0 +1,104 @@
+#login-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 39px;
+  background-color: #fff;
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+  width: 94%;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5ccbbd;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+body {
+  background-color: #b5cdca;
+  margin-top: 133px;
+}
+
+#voltar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5ccbbd;
+  color: #333;
+  text-decoration: none;
+  border-radius: 14px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: bold;
+}
+
+#voltar-btn:hover {
+  background-color: aqua;
+}
+
+a#rec {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+#voltar-btn:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5ccbbd;
+  color: #333;
+  text-decoration: none;
+  border-radius: 14px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: bold;
+}
+
+#voltar-btn:hover {
+  background-color: aqua;
+}
+.home-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 27px;
+  background-color: #5ccbbd;
+  color: #333;
+  padding: 14px;
+  border-radius: 58%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+.home-btn:hover {
+  background-color: aqua;
+}

@@ -1,0 +1,129 @@
+*{
+
+	margin: 2px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+
+}
+
+body{
+
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.body_form {
+
+	background-color: #b5cdca;
+
+}
+
+.body_listagem {
+
+	background-color: white;
+}
+
+.container .title{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.container{
+	
+	position: relative;
+	max-width: 900px;
+	width: 100%;
+	border-radius: 6px;
+	padding: 30px;
+	margin: 0 15px;
+	background-color: #ffff;
+
+}
+
+.container header{
+	font-size: 40px;
+	font-weight: 600;
+	color: #333;
+	background-color: #5ccbbd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}	
+.container form {
+	position: relative;
+	margin-top: 16px;
+	min-height: 490px;
+	background-color: #fff;
+}
+.container form .fields {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.input-field {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: -1px;
+}
+
+.table {
+	display: flex;
+	background-color: white;
+}
+
+.botao {
+
+	background-color: #5ccbbd;
+	margin-top: 5px;
+	height: 34px;
+  width: 197px;
+	border-radius: 8px;
+	border: none;
+	font-weight: bold;
+}
+.botao:hover{
+	background-color: aqua;
+}
+
+#voltar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5ccbbd;
+  color: #333;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+	font-weight: bold;
+}
+
+#voltar-btn:hover {
+  background-color: aqua;
+}
+
+input{
+	border-radius: 40px;
+}
+select{
+	border-radius: 40px;
+}
+
+
+
+.title{
+	font-style: italic;
+}
+
+.input-field input,
+.input-field select {
+  padding: 5px;
+}
+

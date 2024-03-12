@@ -1,0 +1,86 @@
+/*limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", helvetica, sans-serif;
+  background: #b5cdca;
+
+}
+
+#navegacao {
+  background: #fff;
+  border-bottom: 1px solid #d8d8d8;
+  height: 108px;
+
+}
+
+#area {
+  width: 720px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#area_principal {
+  width: 720px;
+  margin: 10px auto 10px auto;
+
+}
+
+#postagem {
+
+  padding: 37px;
+  background-color: #fff;
+
+
+}
+
+#logo {
+
+  float: left;
+  font-size: 37px;
+  color: #5ccbbd;
+
+}
+
+
+#menu {
+
+  float: right;
+  padding: 10px 0;
+  font-size: 17px;
+  color: #5ccbbd;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #0a0a0a;
+  border-radius: 5px;
+  
+
+}
+
+a:hover {
+  
+  background: #9addc6;
+
+}
+
+.data_postagem {
+  font-size: 14px;
+  font-style: italic;
+  color: #666;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+
+}
